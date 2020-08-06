@@ -10,7 +10,7 @@ class Song
   end
   
   def self.new_by_name(songs_name)
-    @songs_name = songs_name
+    @song = songs_name
     Song.name = songs_name
     
     return @songs_name
