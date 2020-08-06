@@ -17,7 +17,7 @@ class Song
   
   def self.create_by_name(song_name)
     @song.name = song_name
-    @@all << song_name
+    @@all << @song
     binding.pry
     return @song
   end
