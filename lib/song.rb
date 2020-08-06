@@ -9,6 +9,17 @@ class Song
     return @song 
   end
   
+  
+   def name=(songs_name)
+    @song_name = songs_name
+  end
+  
+  def name 
+    @song_name
+  end
+  
+  
+  
   def self.new_by_name(songs_name)
     @song = songs_name
     Song.name = songs_name
@@ -16,13 +27,7 @@ class Song
     return @song
   end
   
-  def name=(songs_name)
-    @song_name = songs_name
-  end
-  
-  def name 
-    @song_name
-  end
+ 
   
   def self.all
     @@all
