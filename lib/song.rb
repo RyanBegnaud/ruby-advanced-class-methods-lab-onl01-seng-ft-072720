@@ -15,7 +15,8 @@ class Song
     return @song
   end
   
- 
+  def self.create_by_name(song_name)
+    
   
   def self.all
     @@all
