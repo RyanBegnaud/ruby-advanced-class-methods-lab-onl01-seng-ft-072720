@@ -12,7 +12,7 @@ class Song
   def self.new_by_name(songs_name)
     @song = songs_name
     Song.name = songs_name
-    
+    binding.pry
     return @song
   end
 
