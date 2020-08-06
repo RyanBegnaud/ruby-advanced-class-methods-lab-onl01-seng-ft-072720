@@ -10,21 +10,10 @@ class Song
   end
   
   
-   def name=(sonname)
-    @song_name = songs_name
-  end
-  
-  def name 
-    @song_name
-  end
-  
-  
-  
   def self.new_by_name(songs_name)
-    @song = songs_name
-    @song.name = songs_name
-    binding.pry
-    return @song
+   person = self.new
+    person.name = name
+    @@all << person
   end
   
  
