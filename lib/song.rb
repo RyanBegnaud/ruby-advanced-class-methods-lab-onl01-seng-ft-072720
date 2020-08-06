@@ -1,6 +1,6 @@
 require "pry"
 class Song
-  attr_accessor :artist_name 
+  attr_accessor :name, :artist_name 
   @@all = []
 
   def self.create 
@@ -10,7 +10,7 @@ class Song
   end
   
   
-   def name=(songs_name)
+   def name=(sonname)
     @song_name = songs_name
   end
   
