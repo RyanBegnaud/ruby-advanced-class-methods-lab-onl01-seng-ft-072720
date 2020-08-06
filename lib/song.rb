@@ -25,6 +25,7 @@ class Song
     self.all.find do |song| 
       if @song.name == song_name
         return @song.name
+      end
   end
   
   def self.all
