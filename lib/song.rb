@@ -13,7 +13,7 @@ class Song
     @song = songs_name
     @song.name = songs_name
     
-    return @songs_name
+    return @song
   end
 
   
