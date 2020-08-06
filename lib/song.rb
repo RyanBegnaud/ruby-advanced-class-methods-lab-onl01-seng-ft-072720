@@ -11,9 +11,9 @@ class Song
   
   
   def self.new_by_name(songs_name)
-   person = self.new
-    person.name = name
-    @@all << person
+    song = self.new
+    song.name = name
+   
   end
   
  
