@@ -19,6 +19,7 @@ class Song
     @song.name = song_name
     @@all << song_name
     return @song 
+  end
     
   
   def self.all
